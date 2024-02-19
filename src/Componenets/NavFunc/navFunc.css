@@ -1,0 +1,55 @@
+/* Navbar styling */
+.nav-link {
+  font-size: 22px !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  padding: 10px 20px !important;
+  background-color: transparent !important;
+}
+
+#navi {
+  background: linear-gradient(135deg, #33515d, #0074d9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  position: fixed;
+  z-index: 9900;
+}
+
+.custom-nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  background: linear-gradient(135deg, #33515d, #0074d9) !important;
+  border: none !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) !important;
+  margin-top: 0 !important;
+  left: 0 !important;
+  right: 0 !important; 
+}
+
+#profile-settings,
+#logout-settings {
+  font-size: 18px !important;
+  color: #fff !important;
+  padding: 10px 20px !important;
+  background-color: transparent !important;
+  transition: background-color 0.3s !important;
+  z-index: 7000 !important;
+}
+
+#profile-settings:hover {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+#navi .nav > li > a,
+#navi .navbar-brand {
+  margin-top: 5px !important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  margin-top: 5px !important;
+}

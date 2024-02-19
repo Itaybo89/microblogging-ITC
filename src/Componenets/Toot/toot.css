@@ -1,0 +1,57 @@
+li {
+    color: white;
+    display: flex;
+    list-style: none;
+    height: fit-content;
+    flex-direction: column;
+    margin-bottom: 20px;
+    min-height: 8rem;
+    padding: 10px 20px 20px 20px;
+    border-radius: 5px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3), 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(135deg, #1a2a44, #273c5c);    
+  }
+  
+  #header-span {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    color: #a0a0a0;
+  }
+  
+  #tootMsg {
+    text-align: start;
+    word-wrap: break-word;
+  }
+
+  .toot {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .user-image {
+    margin-right: 10px; 
+  }
+  
+  img {
+    min-width: 125px; 
+    min-height: 125px; 
+    max-width: 125px; 
+    max-height: 125px; 
+    position: relative;
+    bottom: 10px;
+  }
+
+  .toot-content {
+    flex: 1; 
+  }
+  
+  
+  
+  
+  
+  
+

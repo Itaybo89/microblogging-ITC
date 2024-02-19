@@ -1,0 +1,11 @@
+#tootUl {
+  display: flex;
+  margin-top: 20px;
+  width: 80vh;
+  height: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #d0d0d0;
+  flex-direction: column;
+  padding: 0;
+}

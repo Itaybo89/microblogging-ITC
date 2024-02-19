@@ -1,0 +1,144 @@
+#profilion {
+  left: -20rem;
+  top: 20rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#name-input {
+  display: flex;
+  width: 40rem;
+  position: absolute;
+  left: -5rem;
+}
+
+#user-profile {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+#saveButton {
+  position: absolute;
+  left: 31.5rem;
+  top: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+#profile-title {
+  display: flex;
+  color: white;
+  position: absolute;
+  top: -7rem;
+}
+
+#addPicButton {
+  position: absolute;
+  left: -20.2rem;
+  top: 0em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+#show-picture {
+  display: flex;
+  position: relative;
+  left: -15.4rem;
+  bottom: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 9999;
+}
+
+#show-picture img {
+  max-width: 100%; /* Make sure the image fits within the span */
+  max-height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* #profilion {
+  left: -20rem;
+  top: 20rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#name-input {
+  display: flex;
+  width: 40rem;
+  position: absolute;
+  left: -5rem;
+}
+
+#user-profile {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+#saveButton {
+  position: absolute;
+  left: 29rem;
+  top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+#profile-title {
+  display: flex;
+  color: white;
+  position: absolute;
+  top: -7rem;
+}
+ */

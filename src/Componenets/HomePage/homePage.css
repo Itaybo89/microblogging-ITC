@@ -1,0 +1,52 @@
+.HomePage {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  scroll-behavior: auto;
+  overflow-y: auto;
+}
+
+.Spinner-container {
+  margin-top: 50px;
+  display: flex;
+}
+
+#tootLoading {
+  position: fixed;
+  margin-top: 20px;
+  width: 225px;
+  height: 225px;
+  display: flex;
+  margin-left: 5px;
+  background-image: url("/assets/Loading.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20%;
+  -webkit-border-radius: 20%; /* Chrome, Safari, iOS, and Android */
+  -moz-border-radius: 20%; /* Older Firefox */
+}
+
+#failed-err {
+  margin-top: 50px;
+  height: fit-content;
+  border-radius: 5px;
+  background-color: #f5c6cb;
+  display: flex;
+  padding: 5px 10px;
+  font-weight: bolder;
+}
+#error-toot {
+  margin-top: 20px;
+  width: 225px;
+  height: 225px;
+  display: flex;
+  margin-left: 5px;
+  background-image: url("/assets/sad.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20%;
+  -webkit-border-radius: 20%; /* Chrome, Safari, iOS, and Android */
+  -moz-border-radius: 20%; /* Older Firefox */
+}

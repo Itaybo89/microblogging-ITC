@@ -1,0 +1,44 @@
+#tootButton {
+  position: absolute;
+  right: 15px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+#tootText {
+  margin-right: 5px;
+}
+
+#tootImage {
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  background-image: url("/assets/toot.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20%;
+  -webkit-border-radius: 20%; /* Chrome, Safari, iOS, and Android */
+  -moz-border-radius: 20%; /* Older Firefox */
+}
+
+#charError {
+  position: absolute;
+  border-radius: 5px;
+  background-color: #f5c6cb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  left: 15px;
+  bottom: 20px;
+  font-weight: bolder;
+}
